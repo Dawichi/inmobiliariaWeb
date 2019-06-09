@@ -1,0 +1,29 @@
+/* Box General */
+div.buscador {
+    clear: both;
+    float: left;
+    max-width: 20%;
+    margin-left: 2%;
+    margin-top: 1%;
+    background-color:white;
+    padding:15px;
+    border:#666 1px solid;
+    border-radius: 10px;
+}
+h4 {
+    margin: 10px;
+}
+#submit {
+    margin-left: 35%;
+}
+
+/* Formulario HTML */
+input, select, label {
+    clear: both;
+    margin: 10px;
+}
+label {
+    float: left;
+    width: 150px;
+    text-align: right;
+}

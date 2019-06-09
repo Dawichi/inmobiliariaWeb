@@ -1,0 +1,45 @@
+/* Box General */
+div.form {
+    clear: both;
+    max-width: 34%;
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color:white;
+    padding:15px;
+    border:#666 1px solid;
+    border-radius: 10px;
+}
+h3 {
+    margin: 10px;
+}
+/* Formulario HTML */
+input, select, label {
+    clear: both;
+    margin: 10px;
+}
+label {
+    float: left;
+    width: 150px;
+    text-align: right;
+}
+
+/* Mensajes de error */
+span {
+    color: red;
+}
+
+/* Lista de datos registrados */
+ul.registrado {
+    clear: both;
+    max-width: 25%;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color:white;
+    padding:15px;
+    border:#666 1px solid;
+    border-radius: 10px;
+    list-style-type: none;
+}
+li {
+    margin: 10px;
+}

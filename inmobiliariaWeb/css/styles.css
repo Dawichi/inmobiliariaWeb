@@ -1,0 +1,38 @@
+/* Estilo general */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-family: sans-serif;
+}
+
+/* Navegador de enlaces común */
+nav {
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+
+    clear: both;
+    display: table;
+    content: "";
+}
+nav > a {
+    width: 12.72%;
+    float: left;
+    display: block;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+}
+nav > a:hover {
+    background-color: rgb(61, 61, 61);
+    border: 1px solid white;
+}

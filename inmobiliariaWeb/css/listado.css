@@ -1,0 +1,47 @@
+/*
+* Duplicado del archivo listado.css pero con algunas modificaciones
+*/
+
+/* Box General */
+div.table {
+    clear: both;
+    position: absolute;
+    max-width: 54%;
+    margin-left: 22%;
+    margin-top: 5%;
+    background-color:white;
+    padding:15px;
+    border:#666 1px solid;
+    border-radius: 10px;
+}
+h3 {
+    margin: 10px;
+}
+
+/* Tabla HTML */
+th {
+    padding: 10px;
+}
+td {
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Icono cámara */
+#icon {
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Actualizar precio | Enlaces */
+td.rowPrecio {
+    border: #666 1px solid;
+    border-radius: 3px;
+}
+a.rowPrecio {
+    text-decoration: none;
+}
