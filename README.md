@@ -1,4 +1,4 @@
-# inmobiliariaWeb
+# web-inmobiliaria
 A little website for registering homes on a database.
 
 Built in PHP, the web connects to a MySQL database.
